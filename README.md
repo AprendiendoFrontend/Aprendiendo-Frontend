@@ -58,6 +58,7 @@ xcode-select --install
 
 #### Instala Sublime Text 3
 ![Sublime](img/sublime.png)
+---
 Sublime es un editor de código ligero y potente. No es gratis pero puedes usarlo sin necesidad de comprarlo.
 
 #### Añade Package Control a Sublime
@@ -70,6 +71,7 @@ Git es una herramienta de control de versiones muy potente. Tienes un instalador
 
 #### Instala Node
 ![NodeJS](img/nodejs.png)
+---
 Descarga en instalador de la versión LTE de NodeJS de la web oficial. Además, instalaremos Node Version Manager (NVM) para poder disponer de múltiples versiones de NodeJS instaladas de forma simultanea.
 
 #### NodeJS vía NVM
