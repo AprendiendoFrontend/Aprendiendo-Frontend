@@ -56,6 +56,14 @@ Si no tienes instalado `X-Code` y prefieren no tener que descargarte **4.7GB** i
 xcode-select --install
 ```
 
+#### Instala Sublime Text 3
+![Sublime](img/sublime.png)
+Sublime es un editor de código ligero y potente. No es gratis pero puedes usarlo sin necesidad de comprarlo.
+
+#### Añade Package Control a Sublime
+Para instalar plugins en Sublime Text podemos usar la herramienta package control. Hace que ampliar Sublime sea muy sencillo:
+Visita [packagecontrol.io](https://packagecontrol.io/installation)
+
 #### Instala Git
 Git es una herramienta de control de versiones muy potente. Tienes un instalador disponible en la página oficial:
 [Git](https://git-scm.com/)
