@@ -1,4 +1,4 @@
-## Sesión 1 - Preparando el entorno
+## Sesión 1 - Super poderes para Terminal MacOSX
 En esta sesión preparamos un entorno con Mac OSX para trabajar con las siguientes herramientas:
 
 #### Instala iTerm 2
@@ -34,4 +34,4 @@ ZSH_THEME="agnoster"
 
 Recuerda que para que se visualicen correctamente los caracteres que indican los diferentes estados de Git necesitas decirle a **iTerm** que use una de las [Powerline Fonts](https://github.com/powerline/fonts). Yo tengo instalada la Menslo
 
-![](img/iTerm-TextFont.png)
+![](../img/iTerm-TextFont.png)
