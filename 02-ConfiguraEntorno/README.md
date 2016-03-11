@@ -1,3 +1,5 @@
+## Sesión 2 - Configura y personaliza tu entorno
+
 #### Personaliza tu Prompt (PS1)
 ZSH ya trae de serie un prompt muy potente. Aunque también podemos añadir algo de [ASCII Art](http://1lineart.kulaone.com/home2) al inicio de cada línea de tu terminal:
 
@@ -19,7 +21,7 @@ xcode-select --install
 ```
 
 #### Instala Sublime Text 3
-![Sublime](img/sublime.png)
+![Sublime](../img/sublime.png)
 ---
 Sublime es un editor de código ligero y potente. No es gratis pero puedes usarlo sin necesidad de comprarlo.
 
@@ -39,7 +41,7 @@ Abre el repositorio de GitHub desde el terminal.
 [Git Open](https://github.com/paulirish/git-open)
 
 #### Instala Node
-![NodeJS](img/nodejs.png)
+![NodeJS](../img/nodejs.png)
 ---
 Descarga en instalador de la versión LTE de NodeJS de la web oficial. Además, instalaremos Node Version Manager (NVM) para poder disponer de múltiples versiones de NodeJS instaladas de forma simultanea.
 
@@ -82,7 +84,7 @@ Si necesitas más información sobre NVM visita [su página de GitHub](https://g
 
 ### Actualizando NPM
 
-<img src='img/Npm-logo.png' width='150' />
+<img src='../img/Npm-logo.png' width='150' />
 
 NPM es el gestor de paquetes de NodeJS. Para actualizarlo:
 
