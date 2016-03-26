@@ -4,9 +4,11 @@
 ## Sesión 2 - Preparando el entorno
 - [Git Extras + Node Version Manager](02-GitExtras-NVM/README.md)
 
+## Sesión 3 - Boilerplate NPM
+- [Boilerplate con NPM](03-Boilerplate-NPM/README.md)
+
 Próximamente...
-- Boilerplate basado en Node con:
--- Node-sass
--- Autoprefixer
--- Linting
--- Gh-pages
+Continuaremos mejorando nuestro Boilerplate basado en Node añadiendo:
+- `Autoprefixer`
+- `Imagemin`
+- `Gh-pages`
