@@ -1,7 +1,7 @@
 {
   "name": "aprendiendofrontend-cssgrid",
   "version": "1.0.0",
-  "description": "Testing CSS-Grid with Sass and Parcel bundler",
+  "description": "Testing CSS-Grid with CSS custom properties and Parcel bundler",
   "main": "js/index.js",
   "scripts": {
     "start": "parcel index.html -p 8888 watch"
@@ -13,7 +13,6 @@
     "parcel-bundler": "1.6.2"
   },
   "devDependencies": {
-    "node-sass": "4.7.2",
     "eslint": "4.18.1"
   }
 }
