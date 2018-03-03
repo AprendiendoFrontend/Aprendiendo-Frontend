@@ -138,13 +138,19 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
+},{"_css_loader":6}],12:[function(require,module,exports) {
+
+        var reloadCSS = require('_css_loader');
+        module.hot.dispose(reloadCSS);
+        module.hot.accept(reloadCSS);
+      
 },{"_css_loader":6}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./settings.css":7,"_css_loader":6}],4:[function(require,module,exports) {
+},{"./settings.css":7,"./helpers.css":12,"_css_loader":6}],4:[function(require,module,exports) {
 "use strict";
 
 require("../css/index.css");
@@ -172,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54804' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49759' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

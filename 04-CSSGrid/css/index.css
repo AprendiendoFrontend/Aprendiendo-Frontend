@@ -1,15 +1,17 @@
 @import './settings.css';
+@import './helpers.css';
 
-html {
-  background: var(--main-bg-color);
-  box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 1em;
-  padding: 0;
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 150px 50px 100px;
+  grid-template-rows: 100px 150px;
+  grid-gap: 10px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.grid-item {
+  background-color: var(--griditem-color);
+  font-weight: bold;
+  outline: var(--griditem-outline);
+  padding: 20px;
+  text-align: center;
 }

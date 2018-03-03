@@ -1,7 +1,12 @@
-/* Variable CSS Nativa:
+/* CSS Custom Properties:
 /* Se definen en un contexto y se heredan de elementos padres a hijos en Cascada
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables#Basic_usage */
 
 :root {
-  --main-bg-color: #ffee00;
+  --main-bg-color: #c6faff;
+}
+
+.grid-item {
+  --griditem-color: rgba(99, 168, 255, 0.75);
+  --griditem-outline: 1px solid #2f6680;
 }
