@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],6:[function(require,module,exports) {
+},{}],4:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,31 +132,31 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":8}],7:[function(require,module,exports) {
+},{"./bundle-url":8}],6:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":6}],12:[function(require,module,exports) {
+},{"_css_loader":4}],7:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":6}],5:[function(require,module,exports) {
+},{"_css_loader":4}],3:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./settings.css":7,"./helpers.css":12,"_css_loader":6}],4:[function(require,module,exports) {
+},{"./settings.css":6,"./helpers.css":7,"_css_loader":4}],2:[function(require,module,exports) {
 "use strict";
 
 require("../css/index.css");
 
 console.log("Aprendiendo Frontend => CSS Grid & Parcel");
-},{"../css/index.css":5}],9:[function(require,module,exports) {
+},{"../css/index.css":3}],13:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -178,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49759' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51856' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -279,5 +279,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[9,4])
+},{}]},{},[13,2])
 //# sourceMappingURL=/dist/aprendiendofrontend-cssgrid.map

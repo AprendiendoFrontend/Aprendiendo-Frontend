@@ -7,6 +7,6 @@
 }
 
 .grid-item {
-  --griditem-color: rgba(99, 168, 255, 0.75);
-  --griditem-outline: 1px solid #2f6680;
+  --griditem-color: #0099ff;
+  --griditem-outline: 1px solid #004575;
 }

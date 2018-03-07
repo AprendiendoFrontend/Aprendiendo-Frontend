@@ -3,15 +3,14 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 100px 150px 50px 100px;
-  grid-template-rows: 100px 150px;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-gap: 5px;
 }
 
 .grid-item {
   background-color: var(--griditem-color);
-  font-weight: bold;
   outline: var(--griditem-outline);
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }

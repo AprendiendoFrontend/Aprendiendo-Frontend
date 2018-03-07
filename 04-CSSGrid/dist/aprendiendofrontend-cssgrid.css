@@ -7,13 +7,14 @@
 }
 
 .grid-item {
-  --griditem-color: rgba(99, 168, 255, 0.75);
-  --griditem-outline: 1px solid #2f6680;
+  --griditem-color: #0099ff;
+  --griditem-outline: 1px solid #004575;
 }
 html {
   background: var(--main-bg-color);
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
   margin: 1em;
   padding: 0;
 }
@@ -24,15 +25,14 @@ html {
   box-sizing: inherit;
 }.grid-container {
   display: grid;
-  grid-template-columns: 100px 150px 50px 100px;
-  grid-template-rows: 100px 150px;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-gap: 5px;
 }
 
 .grid-item {
   background-color: var(--griditem-color);
-  font-weight: bold;
   outline: var(--griditem-outline);
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
