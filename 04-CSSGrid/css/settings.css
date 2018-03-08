@@ -1,0 +1,12 @@
+/* CSS Custom Properties:
+/* Se definen en un contexto y se heredan de elementos padres a hijos en Cascada
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables#Basic_usage */
+
+:root {
+  --main-bg-color: #c6faff;
+}
+
+.grid-item {
+  --griditem-color: #0099ff;
+  --griditem-outline: 1px solid #004575;
+}

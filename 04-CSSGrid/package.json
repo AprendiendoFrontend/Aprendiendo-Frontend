@@ -1,0 +1,18 @@
+{
+  "name": "aprendiendofrontend-cssgrid",
+  "version": "1.0.0",
+  "description": "Testing CSS-Grid with CSS custom properties and Parcel bundler",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "parcel index.html -p 8888 watch"
+  },
+  "keywords": [],
+  "author": "David Garcia => @d4vecarter",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "1.6.2"
+  },
+  "devDependencies": {
+    "eslint": "4.18.1"
+  }
+}

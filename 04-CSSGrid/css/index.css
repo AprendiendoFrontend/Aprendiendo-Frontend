@@ -1,0 +1,21 @@
+@import './settings.css';
+@import './helpers.css';
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-gap: 5px;
+}
+
+.grid-item {
+  background-color: var(--griditem-color);
+  outline: var(--griditem-outline);
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item--double {
+  grid-column: span 2;
+  background-color: azure;
+}
