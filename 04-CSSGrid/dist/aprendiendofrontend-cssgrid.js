@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({8:[function(require,module,exports) {
+})({7:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -132,13 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":8}],6:[function(require,module,exports) {
+},{"./bundle-url":7}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":4}],7:[function(require,module,exports) {
+},{"_css_loader":4}],6:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -150,7 +150,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./settings.css":6,"./helpers.css":7,"_css_loader":4}],2:[function(require,module,exports) {
+},{"./settings.css":5,"./helpers.css":6,"_css_loader":4}],2:[function(require,module,exports) {
 "use strict";
 
 require("../css/index.css");
@@ -178,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51856' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49293' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
