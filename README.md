@@ -7,8 +7,5 @@
 ## Sesión 3 - Boilerplate NPM
 - [Boilerplate con NPM](03-Boilerplate-NPM/README.md)
 
-Próximamente...
-Continuaremos mejorando nuestro Boilerplate basado en Node añadiendo:
-- `Autoprefixer`
-- `Imagemin`
-- `Gh-pages`
+## Sesión 4 - CSS Grid
+- [CSSGrid + Parcel](04-CSSGrid/README.md)
